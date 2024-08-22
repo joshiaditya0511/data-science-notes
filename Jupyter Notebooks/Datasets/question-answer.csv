@@ -1,0 +1,38 @@
+,2
+0,Q1-What is Data Science?
+1,"Ans1-Data Science combines statistics, maths, specialised programs, artificial intelligence, machine learning etc. Data Science is simply the application of specific principles and analytic techniques to extract information from data used in strategic planning, decision making, etc. Simply, data science means analysing data for actionable insights."
+2,Q2-2. How is logistic regression done?
+3,Ans2-Logistic regression measures the relationship between the dependent variable (our label of what we want to predict) and one or more independent variables (our features) by estimating probability using its underlying logistic function (sigmoid).
+4,Q3-How do you build a random forest model?
+5,"Ans3-A random forest is built up of a number of decision trees. If you split the data into different packages and make a decision tree in each of the different groups of data, the random forest brings all those trees together.
+
+Steps to build a random forest model:
+Randomly select 'k' features from a total of 'm' features where k << m
+Among the 'k' features, calculate the node D using the best split point
+Split the node into daughter nodes using the best split
+Repeat steps two and three until leaf nodes are finalized 
+Build forest by repeating steps one to four for 'n' times to create 'n' number of trees "
+6,Q4-How can you avoid overfitting your model?
+7,"Ans4-Overfitting refers to a model that is only set for a very small amount of data and ignores the bigger picture. There are three main methods to avoid overfitting:
+
+Keep the model simple—take fewer variables into account, thereby removing some of the noise in the training data
+Use cross-validation techniques, such as k folds cross-validation
+Use regularization techniques, such as LASSO, that penalize certain model parameters if they're likely to cause overfitting"
+8,Q5-You are given a data set consisting of variables with more than 30 percent missing values. How will you deal with them?
+9,"Ans5-The following are ways to handle missing data values:
+
+If the data set is large, we can just simply remove the rows with missing data values. It is the quickest way; we use the rest of the data to predict the values.
+
+For smaller data sets, we can substitute missing values with the mean or average of the rest of the data using the pandas' data frame in python. There are different ways to do so, such as df.mean(), df.fillna(mean)."
+10,Q6-What is bag of words? How we can use it for text classification?
+11,"Ans6-Bag of Words is a representation of text that describes the occurrence of words within a document. The order or structure of the words is not considered. For text classification, we look at the histogram of the words within the text and consider each word count as a feature."
+12,Q7-How can we use machine learning for text classification?
+13,"Ans7-Machine learning classification algorithms predict a class based on a numerical feature representation. This means that in order to use machine learning for text classification, we need to extract numerical features from our text data first before we can apply machine learning algorithms. Common approaches to extract numerical features from text data are bag of words, N-grams or word embeddings.
+
+"
+14,Q8-What is a time series?
+15,Ans8-A time series is a set of observations ordered in time usually collected at regular intervals.
+16,Q9-How is time series different from the usual regression problem?
+17,"Ans9-The principle behind causal forecasting is that the value that has to be predicted is dependant on the input features (causal factors). In time series forecasting, the to be predicted value is expected to follow a certain pattern over time."
+18,Q10-What are the different types of joins? What are the differences between them?
+19,"Ans10-(INNER) JOIN: Returns records that have matching values in both tables LEFT (OUTER) JOIN: Return all records from the left table, and the matched records from the right table RIGHT (OUTER) JOIN: Return all records from the right table, and the matched records from the left table FULL (OUTER) JOIN: Return all records when there is a match in either left or right table"
